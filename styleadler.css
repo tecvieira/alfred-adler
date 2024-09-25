@@ -5,7 +5,7 @@
     --cor1: #EDF257;
     --cor2: #0C70F2;
     --cor3: #182E59;
-    --cor4:#0C70F2
+    --cor4: #020659;
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
 
 }
@@ -26,26 +26,25 @@ header{
 }
 header > h1{
     color: var(--cor0);
+    padding: 2px;
     font-size: 2.2em;
-    
     text-align: center;
     font-weight: bold;
    
     
 }
 header > p{
-    color: white;    
-    
+    color:  #020659;
+    font-weight: bold;    
+    padding: 2px;
     font-size: 1em;
     text-align: center;
-   
-  
 }
-
 
 body{
     background-color: var(--cor0);
 }
+
 main{
     max-width: 800px;
     min-width: 300px;
@@ -57,6 +56,7 @@ main{
 
 main img{
     width: 100%;
+    padding-bottom: 10px;
 }
 
 article > img{    
@@ -66,7 +66,9 @@ article > img{
 
 article > h1{
     font-size: 2em;
+    padding: 10px;
 }
+
 article > h2{
     font-size: 2em;
 }
@@ -76,6 +78,7 @@ article > p{
     text-align: justify;
     padding: 5px;
 }
+
 article> div{
     display: block;
     text-align: center;
@@ -88,9 +91,16 @@ aside{
     margin: auto;
 
 }
+
+aside > h1{
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 10px;
+}
+
 aside > p{
     padding: 5px;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
     
 }
 
@@ -98,6 +108,7 @@ ol{
     padding-left: 20px;
     padding-top: 20px;
 }
+
 footer{
     background-image: linear-gradient(to bottom, #0C70F2, #EDF257);
     color: var(--cor);
@@ -107,16 +118,27 @@ footer{
     margin: auto;
 
 }
+
+footer > h3{
+    font-family: var(--fonte-padrao);
+    color: red;
+    font-size: 1.5em;
+    padding-bottom: 10px;
+}
+
 footer > ul > li > a{
+    font-family: var(--fonte-padrao);
     font-size: 1.2em;
-    color: darkblue; 
+    color: rgb(16, 0, 139); 
     text-decoration-line: none;    
     padding: 20px;
 }
+
 footer > ul> li> a:hover{
-    color: red;
+    color: rgb(255, 0, 0);
     text-decoration-line: underline;
 }
+
 ul{
     padding-left: 30px;
 }
